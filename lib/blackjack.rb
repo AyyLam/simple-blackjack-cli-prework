@@ -7,12 +7,12 @@ def deal_card
 end
 
 def display_card_total
-  puts "Type 'h' to hit or 's' to stay"
-  input = get.chomp
+  
 end
 
 def prompt_user
-  
+  puts "Type 'h' to hit or 's' to stay"
+  input = get.chomp
 end
 
 def get_user_input
