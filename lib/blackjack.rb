@@ -38,7 +38,6 @@ def hit(card_total)
     card_total += new_card
   elif input != 's'
     invalid_command
-  
   return card_total
     
   
@@ -46,7 +45,7 @@ end
 
 def invalid_command
   puts "Please enter a valid command" 
-  prompt_user
+  hit(card_total) 
 end
 
 #####################################################
